@@ -1,0 +1,10 @@
+Function Declared
+11
+Compiler Design
+If expressin 1 executed
+Else if block expressin 0 executed
+for loop executes 3 times
+while loop executes 5 times
+switch expressin 5 executed
+
+Compilation Successful

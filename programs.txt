@@ -1,0 +1,72 @@
+-int fun-Max -pbs -int v-a -cm -int v-b -pbe
+-sbs
+
+-sbe
+
+
+-int fun-main -pbs -pbe
+-sbs
+	-int v-a -eq 6 -pl 5 |
+	-int v-b -eq 5 -cm v-c -eq v-b |
+	v-a -eq 6 -pl v-c |
+
+	print-v -pbs v-a -pbe |
+	print-n -pbs -pbe |
+	print-s -pbs "Compiler Design" -pbe |
+	print-n -pbs -pbe |
+
+
+	check -pbs 7 -lt 4 -pbe
+		-sbs
+
+		-sbe
+	recheck -pbs 15 -gt 9 -pbe
+		-sbs
+			check -pbs 5 -gt 4 -pbe
+				-sbs
+					
+				-sbe
+		-sbe
+	recheck -pbs 5 -lt 4 -pbe
+		-sbs
+
+		-sbe
+	atleast
+		-sbs
+			
+		-sbe
+	
+
+	
+	circle -pbs 1 -to 15 -inc 5 -pbe
+	-sbs
+		-int v-l -eq 1 -pl 5 |
+	-sbe
+
+	ring -pbs 1 -gt 5 -pbe 
+	-sbs 
+		4 -pl 2 
+	-sbe
+
+	shift -pbs 5 -pbe
+	-sbs
+		1 /
+			-sbs
+
+			-sbe
+		5 /
+			-sbs
+
+			-sbe
+		7 /
+			-sbs
+
+			-sbe
+
+	 -def / -sbs
+
+		    -sbe
+	-sbe
+
+
+-sbe
